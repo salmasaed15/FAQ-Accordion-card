@@ -30,25 +30,33 @@ body{
     width: 450px;
     margin-left: 0;
 }
-/* .content{
-    
-} */
+.content{
+    position: relative;
+}
 .content h1{
     font-weight: 600;
     font-size: 15px;
+    cursor: pointer;
 }
 .content .answer{
-    display: block;
+    
 }
 .content .answer p {
     font-weight: 400;
     font-size: 12px;
     padding: 0;
     margin: 0;
+    display: block;
+    transition: all 1s linear;
 }
 .content .icon i {
-    color:brown;
+    position: absolute;
+    /* color:brown; */
     font-weight: 600;
     font-size: 20px;
-    display: inline-block;
+    top:50px;
+    left:350px
+}
+.hidden{
+    display: none;
 }
